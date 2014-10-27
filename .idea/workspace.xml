@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a30a2c-96c5-4911-9d29-9a7e31f530c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
-    </list>
+    <list default="true" id="04a30a2c-96c5-4911-9d29-9a7e31f530c7" name="Default" comment="" />
     <ignored path="whichshouldido.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +89,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="462" />
+    <option name="x" value="44" />
+    <option name="y" value="416" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
   </component>
@@ -469,7 +467,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="462" width="1440" height="807" extended-state="0" />
+    <frame x="44" y="416" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
