@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'items/index'
+
   resources :todo_lists
 
   # The priority is based upon order of creation: first created -> highest priority.
