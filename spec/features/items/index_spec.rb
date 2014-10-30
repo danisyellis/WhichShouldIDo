@@ -7,6 +7,6 @@ describe "Viewing items" do
     within "#todo_list_#{todo_list.id}" do
       click_link "List Items"
     end
-    expect(page).to have_content("Items#index")
+    expect(page.all("ul.todo_items li").size).to eq(0)
   end
 end
