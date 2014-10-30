@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'items/index'
 
-  resources :todo_lists
+  resources :todo_lists do
+    resources :items
+  end
 
   get 'home/index'
   get 'home/about'
