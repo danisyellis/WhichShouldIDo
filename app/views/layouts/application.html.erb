@@ -7,8 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <header>
+      <nav>
+          <ul>
+            <li>Home | </li>
+            <li>About | </li>
+            <li class="Logged">Log In</li>
+          </ul>
+      </nav>
+      <h1>Which Should I Do???</h1>
+    </header>
 
 <%= yield %>
+
+<footer>
+  <h5>Like what you see? Consider hiring me! </h5>
+  <h5><a href="http://www.daniellegellis.com">Check out the rest of my portfolio</a></h5>
+</footer>
 
 </body>
 </html>
