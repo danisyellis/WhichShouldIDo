@@ -7,11 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+  <% flash.each do |type, message| %>
+  <div class="alert flash <%= type %>">
+    <%= message %>
+  </div>
+  <% end %>
+
     <header>
       <nav>
           <ul>
-            <li>Home | </li>
-            <li>About | </li>
+            <li> <%= link_to "Home", home_index_path %> |</li>
+            <li> <%= link_to "About", home_about_path %> | </li>
             <li class="Logged">Log In</li>
           </ul>
       </nav>
