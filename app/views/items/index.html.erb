@@ -5,6 +5,7 @@
   <% @todo_list.items.each do |item| %>
   <li><%= item.content %>
       <%= link_to "Edit", edit_todo_list_item_path(@todo_list, item) %>
+      <%= link_to "Delete", todo_list_item_path(@todo_list, item), method: :delete, data: { confirm: "Are you sure?" } %>
       </li>
   <% end %>
 </ul>

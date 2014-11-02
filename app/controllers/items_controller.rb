@@ -27,12 +27,18 @@ class ItemsController < ApplicationController
   def update
     @item = @todo_list.items.find(params[:id])
     if @item.update_attributes(item_params)
-      flash[:success] = "Saved todo list item"
+      flash[:success] = "To-do list item has been updated"
       redirect_to todo_list_items_path
     else
       flash[:error] = "There was a problem saving that item"
       render action: :edit
     end
+  end
+
+  def destroy
+    @item = @todo_list.items.find(params[:id])
+    @item.destroy
+    redirect_to todo_list_items_path
   end
 
 
