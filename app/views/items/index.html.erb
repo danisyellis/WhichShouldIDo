@@ -3,7 +3,9 @@
 
 <ul class="todo_items">
   <% @todo_list.items.each do |item| %>
-  <li><%= item.content %></li>
+  <li><%= item.content %>
+      <%= link_to "Edit", edit_todo_list_item_path(@todo_list, item) %>
+      </li>
   <% end %>
 </ul>
 
